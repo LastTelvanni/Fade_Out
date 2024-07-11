@@ -1,0 +1,14 @@
+	@font-face {
+		font-family: 'dos2000';
+			src: 	
+				url(./fonts/dos2000.woff2) format('woff2'),
+				url(./fonts/dos2000.woff) format('woff'),
+				url(./fonts/dos2000.ttf) format('truetype');
+		font-weight: normal; 
+		font-style: normal; 
+	}
+		
+	p {
+		font-family: dos2000;
+		color: #200040;
+	}

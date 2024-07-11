@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'dos2000';
+  src: 	
+		url(./fonts/dos2000.woff2) format('woff2'),
+		url(./fonts/dos2000.woff) format('woff'),
+		url(./fonts/dos2000.ttf) format('truetype');
+  font-weight: normal; 
+  font-style: normal; 
+}
+
+.container { 
+            position: relative;
+        } 
+  
+        .containerbackground { 
+			overflow: hidden;
+			text-align: left;
+            font-family: dos2000; 
+            position: absolute; 
+            top: -10%; 
+            left: -2%;
+			right: 0;
+            bottom: -5%; 
+            z-index: -1; 
+            color: #200040;
+        } 
+		
+body {    
+    background-color: #000000;
+	}
+	
+h1 {
+	font-family: dos2000;
+	text-indent: 25pt;
+    text-align: right;
+    color: #FF00FF;
+	margin: auto;
+    }
+			
+p {
+	font-family: dos2000;
+	text-indent: 15pt;
+    text-align: center;
+    color: #00FFFF;
+    font-size: 18;
+    width: 80%;
+	margin: auto;
+    }
+			
+img {
+	display: block;
+    width:30%;
+	margin: auto;
+    }
+
+	 
+hr {
+  width: 60%;
+  margin: 30px auto;
+  border: 1px solid #00FFFF;
+	}
